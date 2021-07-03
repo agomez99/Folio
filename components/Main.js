@@ -3,7 +3,7 @@ import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter'
 import faLinkedin from '@fortawesome/fontawesome-free-brands/faLinkedin'
 import faGithub from '@fortawesome/fontawesome-free-brands/faGithub'
-import ContactForm from './ContactForm';
+// import ContactForm from './ContactForm';
 
 class Main extends React.Component {
   render() {
