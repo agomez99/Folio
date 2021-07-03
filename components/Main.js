@@ -37,8 +37,8 @@ class Main extends React.Component {
         </article>
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-        <ContactForm />
-
+        {/* <ContactForm /> */}
+            <h1>COMING SOON CONTACT FORM</h1>
           <ul className="icons">
             <li><a href="https://twitter.com/austine_gomez">
               <FontAwesomeIcon icon={faTwitter} />
