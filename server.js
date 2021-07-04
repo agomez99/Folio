@@ -43,8 +43,7 @@
 //              <p>Email: ${email}</p>
 //              <p>Message: ${message}</p>
 //              <img src="https://pngimg.com/uploads/thank_you/thank_you_PNG86.png" />`,
-            
-
+        
 
 //     };
 //     contactEmail.sendMail(mail, (error) => {
