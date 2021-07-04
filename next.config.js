@@ -1,8 +1,24 @@
 const path = require('path')
 const glob = require('glob')
 
+
+module.exports = {
+  generateBuildId: async () => {
+    // You can, for example, get the latest git commit hash here
+    return 'my-build-id'
+  },
+}
+
+module.exports = {
+  generateBuildId: async () => {
+    // You can, for example, get the latest git commit hash here
+    return 'my-build-id'
+  },
+}
 module.exports = {
   webpack: (config, { dev }) => {
+
+    
     config.module.rules.push(
       {
         test: /\.(css|scss)/,
@@ -11,6 +27,8 @@ module.exports = {
           name: 'dist/[path][name].[ext]'
         }
       },
+
+      
       {
         test: /\.css$/,
         use: ['babel-loader', 'raw-loader', 'postcss-loader']
