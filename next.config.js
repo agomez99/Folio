@@ -16,9 +16,7 @@ module.exports = {
   },
 }
 module.exports = {
-  webpack: (config, { dev }) => {
-
-    
+  webpack: (config, { dev }) => {    
     config.module.rules.push(
       {
         test: /\.(css|scss)/,
